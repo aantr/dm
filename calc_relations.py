@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def analyze_relation(matrix):
     n = len(matrix)
     print("Матрица отношения:")
@@ -41,13 +42,8 @@ def analyze_relation(matrix):
 
     return reflexive, irreflexive, symmetric, antisymmetric, asymmetric, closure
 
+
 # вариант 1
-matrix = [
-    [0, 1, 0, 0],
-    [0, 1, 1, 0],
-    [0, 1, 0, 1],
-    [0, 0, 0, 0]
-]
+matrix = [[0, 1, 0, 0], [0, 1, 1, 0], [0, 1, 0, 1], [0, 0, 0, 0]]
 
 analyze_relation(matrix)
-
